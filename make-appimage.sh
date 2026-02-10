@@ -22,4 +22,4 @@ quick-sharun /usr/bin/srb2kart
 quick-sharun --make-appimage
 
 # test the final app
-#quick-sharun --test ./dist/*.AppImage
+quick-sharun --test ./dist/*.AppImage
