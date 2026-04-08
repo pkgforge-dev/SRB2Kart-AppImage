@@ -10,7 +10,6 @@ pacman -Syu --noconfirm \
     glu        \
     libdecor   \
     libgme     \
-    sdl2       \
     sdl2_mixer
 
 echo "Installing debloated packages..."
