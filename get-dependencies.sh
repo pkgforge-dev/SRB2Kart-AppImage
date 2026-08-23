@@ -8,13 +8,12 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     glu        \
-    libdecor   \
     libgme     \
     sdl2_mixer
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 
 # Comment this out if you need an AUR package
 make-aur-package discord-rpc
