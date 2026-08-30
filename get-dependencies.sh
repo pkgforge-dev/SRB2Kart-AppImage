@@ -33,4 +33,4 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./SRB2Kart
 make LINUX64=1 HAVE_DISCORDRPC=1 -j$(nproc)
-mv -v /bin/Linux64/Release/lsdl2srb2kart ../AppDir/bin/
+mv -v /bin/Linux64/Release/lsdl2srb2kart ../AppDir/bin/srb2kart
