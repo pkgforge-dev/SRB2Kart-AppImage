@@ -10,8 +10,6 @@ export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export APPNAME=SRB2Kart
 export ICON=https://git.do.srb2.org/KartKrew/Kart-Public/-/raw/next/srb2.png?ref_type=heads
-export DESKTOP=/usr/share/applications/srb2kart-opengl.desktop
-export STARTUPWMCLASS=srb2kart
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
