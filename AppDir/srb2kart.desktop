@@ -5,6 +5,6 @@ Comment=Classic styled kart racer
 GenericName=A 3D open-source kart racing game
 Exec=srb2kart -opengl
 Icon=srb2kart
-StartupWMClass=
+StartupWMClass=srb2kart
 Terminal=false
 Categories=Game;ArcadeGame
