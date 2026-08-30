@@ -28,7 +28,8 @@ echo "---------------------------------------------------------------"
 REPO="https://github.com/STJr/Kart-Public"
 VERSION="$(curl -sL https://api.github.com/repos/STJr/Kart-Public/releases/latest | grep '"tag_name"' | head -1 | cut -d '"' -f 4)"
 git clone --branch "$VERSION" "$REPO" ./SRB2Kart
-echo "$VERSION" > ~/version
+VERSION_NOV="${VERSION#v}"
+echo "$VERSION_NOV" > ~/version
 
 # AssetsLinuxOnly.zip from the same latest tag
 curl -L -o AssetsLinuxOnly.zip \
