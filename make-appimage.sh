@@ -12,7 +12,7 @@ export APPNAME=SRB2Kart
 export ICON=https://git.do.srb2.org/KartKrew/Kart-Public/-/raw/next/srb2.png?ref_type=heads
 export DESKTOP=/usr/share/applications/srb2kart-opengl.desktop
 export STARTUPWMCLASS=srb2kart
-export DEPLOY_OPENGL=1
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/srb2kart
