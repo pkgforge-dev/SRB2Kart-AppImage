@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/SRB2Kart-AppImage)](https://github.com/pkgforge-dev/SRB2Kart-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://git.do.srb2.org/KartKrew/Kart-Public/-/raw/next/srb2.png?ref_type=heads" width="128" />
+  <img src="https://raw.githubusercontent.com/STJr/Kart-Public/refs/heads/master/srb2.png" width="128" />
 </p>
 
 
