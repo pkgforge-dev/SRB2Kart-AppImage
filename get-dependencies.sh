@@ -39,5 +39,6 @@ mkdir -p ./AppDir/share/games/SRB2Kart
 bsdtar -xvf AssetsLinuxOnly.zip -C ./AppDir/share/games/SRB2Kart
 
 cd ./SRB2Kart/src
-make LINUX64=1 HAVE_DISCORDRPC=1 CFLAGS="${CFLAGS:-} -std=gnu99" -j$(nproc)
+export CFLAGS="${CFLAGS:-} -std=gnu99"
+make LINUX64=1 HAVE_DISCORDRPC=1 -j$(nproc)
 mv -v ../bin/Linux64/Release/lsdl2srb2kart ../../AppDir/bin/srb2kart
