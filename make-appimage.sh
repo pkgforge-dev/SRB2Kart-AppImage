@@ -7,7 +7,6 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export APPNAME=SRB2Kart
 export ICON=https://raw.githubusercontent.com/STJr/Kart-Public/refs/heads/master/srb2.png
 export DEPLOY_OPENGL=1
 
