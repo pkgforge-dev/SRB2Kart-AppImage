@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Sonic Robo Blast 2 Kart (OpenGL)
+Name=SRB2Kart
 Comment=Classic styled kart racer
 GenericName=A 3D open-source kart racing game
 Exec=srb2kart -opengl
