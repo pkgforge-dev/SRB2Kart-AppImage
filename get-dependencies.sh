@@ -21,7 +21,7 @@ echo "Building stable version of SRB2Kart..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/STJr/Kart-Public"
 VERSION="$(curl -sL https://api.github.com/repos/STJr/Kart-Public/releases/latest | grep '"tag_name"' | head -1 | cut -d '"' -f 4)"
-git clone --branch "$VERSION" "$REPO" ./SRB2Kart
+git clone --branch "$VERSION" --depth 1 "$REPO" ./SRB2Kart
 VERSION_NOV="${VERSION#v}"
 echo "$VERSION_NOV" > ~/version
 
